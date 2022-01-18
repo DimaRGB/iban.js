@@ -257,6 +257,7 @@
     addSpecification(new Specification("DK", 18, "F04F09F01",          "DK5000400440116243"));
     addSpecification(new Specification("DO", 28, "U04F20",             "DO28BAGR00000001212453611324"));
     addSpecification(new Specification("EE", 20, "F02F02F11F01",       "EE382200221020145685"));
+    addSpecification(new Specification("EG", 29, "F04F04F17",          "EG800002000156789012345180002"));
     addSpecification(new Specification("ES", 24, "F04F04F01F01F10",    "ES9121000418450200051332"));
     addSpecification(new Specification("FI", 18, "F06F07F01",          "FI2112345600000785"));
     addSpecification(new Specification("FO", 18, "F04F09F01",          "FO6264600001631634"));
@@ -344,6 +345,20 @@
     addSpecification(new Specification("MZ", 25, "F21",                "MZ25123456789012345678901"));
     // Senegal
     addSpecification(new Specification("SN", 28, "U01F23",             "SN52A12345678901234567890123"));
+
+    // The following are regional and administrative French Republic subdivision IBAN specification (same structure as FR, only country code vary)
+    addSpecification(new Specification("GF", 27, "F05F05A11F02",       "GF121234512345123456789AB13"));
+    addSpecification(new Specification("GP", 27, "F05F05A11F02",       "GP791234512345123456789AB13"));
+    addSpecification(new Specification("MQ", 27, "F05F05A11F02",       "MQ221234512345123456789AB13"));
+    addSpecification(new Specification("RE", 27, "F05F05A11F02",       "RE131234512345123456789AB13"));
+    addSpecification(new Specification("PF", 27, "F05F05A11F02",       "PF281234512345123456789AB13"));
+    addSpecification(new Specification("TF", 27, "F05F05A11F02",       "TF891234512345123456789AB13"));
+    addSpecification(new Specification("YT", 27, "F05F05A11F02",       "YT021234512345123456789AB13"));
+    addSpecification(new Specification("NC", 27, "F05F05A11F02",       "NC551234512345123456789AB13"));
+    addSpecification(new Specification("BL", 27, "F05F05A11F02",       "BL391234512345123456789AB13"));
+    addSpecification(new Specification("MF", 27, "F05F05A11F02",       "MF551234512345123456789AB13"));
+    addSpecification(new Specification("PM", 27, "F05F05A11F02",       "PM071234512345123456789AB13"));
+    addSpecification(new Specification("WF", 27, "F05F05A11F02",       "WF621234512345123456789AB13"));
 
     var NON_ALPHANUM = /[^a-zA-Z0-9]/g,
         EVERY_FOUR_CHARS =/(.{4})(?!$)/g;
